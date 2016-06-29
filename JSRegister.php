@@ -12,7 +12,7 @@ use yii\web\View;
  */
 class JSRegister extends Widget {
 	//variables to be passed to \yii\base\View::registerScript()
-	public $id = null;
+	public $key = null;
 	public $position = View::POS_READY;
 	
 	/**
@@ -40,7 +40,7 @@ class JSRegister extends Widget {
 			$script = $matches[1];
 		}
 		
-		$widget->view->registerJs($script, $widget->position, $widget->id);
+		$widget->view->registerJs($script, $widget->position, $widget->key);
 		
 	}
 }

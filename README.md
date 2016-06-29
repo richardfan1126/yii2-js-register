@@ -87,10 +87,10 @@ There are 2 configurations for this widget, which are the parameters passed into
 example:
 
 ```php
-<?php JSRegister::begin({
+<?php JSRegister::begin([
     'key' => 'bootstrap-modal',
     'position' => \yii\web\View::POS_READY
-}); ?>
+]); ?>
 <script>
     // JS script
 </script>

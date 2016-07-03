@@ -1,6 +1,9 @@
 # yii2-js-register
 Yii2 widget to register JS into view
 
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?maxAge=2592000)](https://github.com/richardfan1126/yii2-js-register)
+[![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg?maxAge=2592000)](https://packagist.org/packages/richardfan1126/yii2-js-register)
+
 ## Why do I need this?
 ### How to register JS script into view in Yii2?
 
